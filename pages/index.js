@@ -13,7 +13,7 @@ export default function Home() {
   const [mood, setMood] = useState("");
   const [moodLog, setMoodLog] = useState([]);
   const [started, setStarted] = useState(false);
-  const [showHistory, setShowHistory] = useState(false); // ✅ move it here
+  const [showHistory, setShowHistory] = useState(false);
   const chatEndRef = useRef(null);
 
 
